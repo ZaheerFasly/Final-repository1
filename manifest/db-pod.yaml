@@ -10,7 +10,7 @@ metadata:
 spec:
   containers:
   - name: mysql-db
-    image: 897193292353.dkr.ecr.us-east-1.amazonaws.com/final-project:mysqlIMG
+    image: 897193292353.dkr.ecr.us-east-1.amazonaws.com/db:mysqlIMG
     env:
     - name: MYSQL_ROOT_PASSWORD
       value: pass123
