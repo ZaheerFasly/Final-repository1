@@ -17,7 +17,7 @@ spec:
       serviceAccountName: clo835-group3  # Assign the created ServiceAccount
       containers:
         - name: webapp
-          image: 897193292353.dkr.ecr.us-east-1.amazonaws.com/app:appIMG
+          image: 897193292353.dkr.ecr.us-east-1.amazonaws.com/app:appIMG # Image URI from ECR
           ports:
             - containerPort: 81
           env:
