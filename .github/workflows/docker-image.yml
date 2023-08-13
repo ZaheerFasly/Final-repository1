@@ -27,7 +27,7 @@ jobs:
       - name: Build and Push Application Image
         env:
           ECR_REGISTRY: ${{ steps.login-ecr.outputs.registry }}
-          ECR_REPOSITORY: final-project
+          ECR_REPOSITORY: app
           IMAGE_TAG: appIMG
         run: |
           cd app/
@@ -37,7 +37,7 @@ jobs:
       - name: Build and Push MySQL Image
         env:
           ECR_REGISTRY: ${{ steps.login-ecr.outputs.registry }}
-          ECR_REPOSITORY: final-project
+          ECR_REPOSITORY: db
           IMAGE_TAG: mysqlIMG
         run: |
           cd mysql/
