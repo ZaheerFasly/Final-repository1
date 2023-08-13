@@ -10,7 +10,7 @@ spec:
   ports:
   - port: 81
     targetPort: 81
-    nodePort: 30000
+    nodePort: 30000 #Listening port to open our applcation from
   selector:
     app: employees
     
