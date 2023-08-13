@@ -69,7 +69,7 @@ if not os.path.exists(DOWNLOADS_PATH):
     
     
 # Download the image from the S3 URL
-IMAGE_URL = "https://finalprojecct.s3.amazonaws.com/sample.jpg"
+IMAGE_URL = "https://finalprojecct.s3.amazonaws.com/sample1.jpeg"
 IMAGE_PATH = os.path.join(DOWNLOADS_PATH, "sample.jpg")
 response = requests.get(IMAGE_URL)
 if response.status_code == 200:
