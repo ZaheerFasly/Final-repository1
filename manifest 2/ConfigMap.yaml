@@ -7,5 +7,5 @@ data:
   DBPORT: "3306"
   GROUP_NAME: "GROUP3" # Mohammed, Jennifer and Jide
   DBUSER: "root"
-  IMAGE_URL: "https://finalprojecct.s3.amazonaws.com/sample1.jpeg"  #image of s3
+  IMAGE_URL: "https://s3imagebucket1.s3.amazonaws.com/Supercomputer.jpg"  #image of s3
  
