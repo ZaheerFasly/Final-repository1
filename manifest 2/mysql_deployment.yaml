@@ -17,14 +17,14 @@ spec:
         app: mysql
         component: backend
     spec:
-      serviceAccountName: clo835-group11  # Assign the created ServiceAccount
+      serviceAccountName: clo835-group3  # Assign the created ServiceAccount
       # volumes:  # Define a volume for the PVC
       #   - name: mysql-storage
       #     persistentVolumeClaim:
       #       claimName: mysql-pvc
       containers:
       - name: mysql-db
-        image: 139675527364.dkr.ecr.us-east-1.amazonaws.com/group11-repo:dbv1.0
+        image: 897193292353.dkr.ecr.us-east-1.amazonaws.com/db:dbIMG
         env:
             - name: MYSQL_ROOT_PASSWORD
               valueFrom:
