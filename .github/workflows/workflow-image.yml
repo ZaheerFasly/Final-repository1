@@ -30,7 +30,8 @@ jobs:
         run: |
           cd webapp/
           docker build -t $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG -f Dockerfile .
-          docker push $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG
+          docker push $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG      
+        #hello
           
       # - name: Build and Push Application Image
       #   env:
